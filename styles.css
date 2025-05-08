@@ -1,30 +1,9 @@
 
 /* Your CSS Code here. */
-.holder-1{
+.holder{
 	padding:0px;
 	display:flex;
-	flex-direction:row;
-	justify-content:space-between;
-}
-.holder-1 > div {
-	width:100px;
-	height:100px;
-}
-.box-1{
-	background-color:green;
-}
-.box-2{
-	background-color:red;	
-}
-.box-3{
-	background-color:blue;
-}
-
-.holder > div {
-	background-color:green;
-}
-
-.holder{
-	display:flex;
 	flex-direction:row-reverse;
+	justify-content:space-between;
+	flex-wrap:wrap;
 }
